@@ -1,4 +1,4 @@
-##cmpxchg Test##
+## cmpxchg Test
 
 Built for testing the behavior of the Intel 64/IA32 `cmpxchg` and more specifically, the GCC `__sync_bool_compare_and_swap` function. The purpose of this application was to investigate if a spinlock on the result of `__sync_bool_compare_and_swap` is required until it returns true.
 
